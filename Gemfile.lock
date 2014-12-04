@@ -1,0 +1,26 @@
+GIT
+  remote: git://github.com/marshallford/Pirata.git
+  revision: e2d9b1cf7b2e0e2380ca934d40d166e83e32f274
+  specs:
+    pirata (0.1.5)
+      nokogiri
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.13.1)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.1)
+    mini_portile (0.6.1)
+    multi_xml (0.5.5)
+    nokogiri (1.6.5)
+      mini_portile (~> 0.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  httparty
+  json
+  pirata!
